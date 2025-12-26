@@ -58,13 +58,27 @@ python3 -m venv .venv
 
 ## Usage
 Run the forecast (default horizon is 1 month):
+
+Windows:
 ```powershell
 .\.venv\Scripts\python.exe .\main.py
 ```
 
 And then run the forecast 3 months ahead:
+
 ```powershell
 .\.venv\Scripts\python.exe .\main.py --3months
+```
+
+macOS/Linux:
+```bash
+./.venv/bin/python main.py
+```
+
+And then run the forecast 3 months ahead:
+
+```bash
+./.venv/bin/python main.py --3months
 ```
 
 This executes: data load → feature build → backtests → diagnostics → h‑ahead forecast.
