@@ -1,0 +1,19 @@
+Forecast Summary (h=3)
+Data range: 2000-01-01 -> 2025-06-01  (n=306)
+
+Top by RMSE:
+- Naive: RMSE=0.5604, MAE=0.4137, MASE=1.000, n=255
+Top by MAE:
+- Naive: RMSE=0.5604, MAE=0.4137, MASE=1.000, n=255
+
+3-month-ahead predictions:
+- LinearRegression: 0.3542
+- Ridge: 0.3078
+- Lasso: 0.0105
+- RandomForest: -0.0818
+- Naive: 0.2000
+- SeasonalNaive: 0.6000
+
+Files:
+- Metrics: C:\Users\benoi\Documents\UNIL-HEC-MscF\SwissInflationProject\results\metrics_h3.csv
+- Forecasts: C:\Users\benoi\Documents\UNIL-HEC-MscF\SwissInflationProject\results\forecasts_h3.csv

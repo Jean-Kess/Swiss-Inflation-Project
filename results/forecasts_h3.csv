@@ -1,0 +1,7 @@
+model,next_month_cpi_yoy_pred
+LinearRegression,0.35416833381789725
+Ridge,0.3078009774313345
+Lasso,0.010511127556934063
+RandomForest,-0.08183333333333294
+Naive,0.2
+SeasonalNaive,0.6

@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Note: we intentionally DO NOT ignore /results or project_report.pdf
